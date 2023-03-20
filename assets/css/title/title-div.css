@@ -1,0 +1,23 @@
+.title__div{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 450px) {
+    .title__div{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 368px) {
+    .title__div{
+        margin: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .title__div{
+    margin: 1rem 5rem 1rem 5rem
+    }
+}

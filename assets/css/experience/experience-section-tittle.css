@@ -1,0 +1,21 @@
+.experience__section__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #464646;
+}
+
+@media screen and (min-width: 368px) {
+    .experience__section__title{
+        font-size: 22px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .experience__section__title{
+        font-size: 32px;
+        line-height: 38px;
+    }
+}

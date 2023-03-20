@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+    .menu__list__item__contato{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .menu__list__item__contato{
+        display: flex;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+
+        /* Preto/100% */
+
+        color: #464646;
+    }
+
+    /* Menú */
+    
+    /*title*/
+    
+    /*Skills*/
+    
+    /*Hobbies*/
+    
+    /*Formación Académica*/
+    
+    /*Experiencia Profesional*/
+    
+    }

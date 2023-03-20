@@ -1,0 +1,19 @@
+.academic__courses__item__subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 368px) {
+    .academic__courses__item__subtitle{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .academic__courses__item__subtitle{
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

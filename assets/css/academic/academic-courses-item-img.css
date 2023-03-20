@@ -1,0 +1,38 @@
+.academic__courses__item__img {
+    display: flex;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.academic__courses__img{
+    width: 50%;
+    height: 50%;
+}
+
+@media screen and (max-width: 450px) {
+    .academic__courses__img{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 368px) {
+    .academic__courses__item__img{
+        width: 88%;
+        height: 118px;
+    }
+
+}
+
+/*@media screen and (min-width: 768px) {
+    .academic__courses__item__img{
+        width: 224px;
+    }
+}*/
+
+@media screen and (min-width: 1024px) {
+    .academic__courses__item__img{
+/*width: 368px;*/
+        height: 286px;
+    }
+}

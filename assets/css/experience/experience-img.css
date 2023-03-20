@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+    .experience__img{
+        margin: 1rem;
+        width: 98%;
+    }
+}

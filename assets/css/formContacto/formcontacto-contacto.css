@@ -1,0 +1,18 @@
+.formcontato__contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 368px) {
+    .formcontato__contacto{
+        margin: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formcontato__contacto{
+        margin: 1rem 5rem 1rem 5rem;
+    }
+}

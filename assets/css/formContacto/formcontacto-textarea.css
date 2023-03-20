@@ -1,0 +1,29 @@
+.formcontato__textarea{
+    background: #FFFFFF;
+    border-radius: 0.325rem;
+    border: none;
+    height: 7rem;
+    margin-bottom: 1rem;
+}
+
+.formcontato__textarea::placeholder{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+display: flex;
+align-items: center;
+
+/* Preto/50% */
+
+color: #A2A2A2;
+}
+
+@media screen and (min-width: 368px) {
+    .formcontato__textarea{
+        width: 100%;
+    }
+}

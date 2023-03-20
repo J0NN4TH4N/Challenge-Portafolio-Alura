@@ -1,0 +1,36 @@
+.experiencia__botao--repo{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 116px;
+    height: 51px;
+
+    /* Azul/100% */
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+}
+
+.experience__botao--demo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 105px;
+    height: 51px;
+
+    /* Azul/100% */
+    color: #F5F5F5;
+    background: #2A7AE4;
+    border: none;
+}

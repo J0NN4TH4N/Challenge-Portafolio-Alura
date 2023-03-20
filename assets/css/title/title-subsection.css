@@ -1,0 +1,33 @@
+.title__subsection {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
+@media screen and (min-width: 368px) {
+    .title__subsection{
+    font-size: 14px;
+    line-height: 16px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .title__subsection{
+    font-size: 16px;
+    line-height: 19px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .title__subsection{
+    font-size: 22px;
+    line-height: 26px;
+    }
+}
